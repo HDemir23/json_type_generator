@@ -1,0 +1,59 @@
+{
+  "user": {
+    "id": 12345,
+    "name": "John Doe",
+    "email": "john@example.com",
+    "isActive": true,
+    "age": 30,
+    "profile": {
+      "avatar": "https://example.com/avatar.jpg",
+      "bio": "Software developer",
+      "location": "San Francisco",
+      "skills": ["JavaScript", "TypeScript", "Python"],
+      "preferences": {
+        "theme": "dark",
+        "notifications": true,
+        "language": "en"
+      }
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "Hello World",
+        "content": "This is my first post",
+        "tags": ["programming", "tutorial"],
+        "published": true,
+        "createdAt": "2024-01-15T10:30:00Z",
+        "views": 150,
+        "comments": [
+          {
+            "id": 101,
+            "author": "Jane Smith",
+            "content": "Great post!",
+            "createdAt": "2024-01-15T11:00:00Z"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "lastLogin": "2024-01-15T09:00:00Z",
+      "loginCount": 42,
+      "settings": null
+    }
+  },
+  "settings": {
+    "debug": false,
+    "version": "1.0.0",
+    "features": ["auth", "posts", "comments"],
+    "limits": {
+      "maxPosts": 100,
+      "maxFileSize": 10485760
+    }
+  },
+  "stats": {
+    "totalUsers": 1000,
+    "totalPosts": 5000,
+    "activeUsers": 750,
+    "dailyActive": [120, 135, 142, 138, 145, 150, 155]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "active": true,
+      "scores": [85, 92, 78],
+      "tags": ["developer", "frontend"],
+      "profile": {
+        "avatar": "https://example.com/alice.jpg",
+        "bio": "Full-stack developer"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "active": false,
+      "scores": [90, 88, 95],
+      "tags": ["developer", "backend"],
+      "profile": {
+        "avatar": "https://example.com/bob.jpg",
+        "bio": "Backend developer"
+      }
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "notifications": true,
+    "language": "en",
+    "features": ["auth", "posts", "comments"],
+    "limits": {
+      "maxUsers": 1000,
+      "maxPosts": 5000
+    }
+  },
+  "stats": {
+    "totalUsers": 150,
+    "activeUsers": 120,
+    "dailyActive": [45, 52, 48, 55, 60, 58, 62],
+    "monthlyGrowth": 12.5
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-01-15T10:30:00Z",
+    "environment": "production",
+    "debug": false
+  }
+} 
